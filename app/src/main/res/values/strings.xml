@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Bounce Around</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="preference_mode_catagory">Mode</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="mode_preference_title">Select Operation Mode</string>
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="pref_mode_key">op_mode</string>
+    <string-array android:id="@+id/stringarray1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="pref_mode_entries">
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Bounce Mode</item>
+        <item android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/item1">Tilt Mode</item>
+    </string-array>
+    <string-array android:layout_height="wrap_content" android:id="@+id/stringarray1" android:layout_width="wrap_content" name="pref_mode_values">
+        <item android:layout_height="wrap_content" android:id="@+id/item1" android:layout_width="wrap_content">BOUNCE_MODE</item>
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">TILT_MODE</item>
+    </string-array>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="preference_bounce_catagory">Bounce Mode Options</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="bounce_ball_num_title">Number of Balls (1-500)</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="pref_ball_num_key">bounce_ball_num</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="ball_size_min_title">Minimum Ball Size (5-25)</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="pref_bounce_ball_min_size_key">bounce_ball_min_size</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="bounce_size_range_title">Range of Ball Size (0-50)</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="pref_bounce_size_range_key">bounce_size_range</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="bounce_speed_min_title">Minimum Ball Speed (5-20)</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="pref_bounce_speed_min_key">bounce_speed_min</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="bounce_speed_range_title">Ball Speed Range (0 - 30)</string>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="pref_bounce_speed_range_key">bounce_speed_range</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="ball_bounce_color_title">Ball Color</string>
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="pref_bounce_ball_color_key">bounce_ball_color</string>
+    <string-array android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/stringarray1" name="pref_bounce_color_entries">
+        <item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">Random</item>
+        <item android:layout_height="wrap_content" android:id="@+id/item1" android:layout_width="wrap_content">Random Changing</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Black</item>
+        <item android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/item1">Blue</item>
+        <item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">Cyan</item>
+        <item android:layout_height="wrap_content" android:id="@+id/item1" android:layout_width="wrap_content">Gray</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Green</item>
+        <item android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/item1">Magenta</item>
+        <item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">Red</item>
+        <item android:layout_height="wrap_content" android:id="@+id/item1" android:layout_width="wrap_content">White</item>
+        <item android:layout_width="wrap_content" android:id="@+id/item1" android:layout_height="wrap_content">Yellow</item>
+        
+    </string-array>
+    <string-array android:layout_height="wrap_content" android:id="@+id/stringarray1" android:layout_width="wrap_content" name="pref_bounce_color_values">
+        <item android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/item1">random</item>
+        <item android:layout_width="wrap_content" android:id="@+id/item1" android:layout_height="wrap_content">random_changing</item>
+        <item android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/item1">-16777216</item>
+<item android:layout_height="wrap_content" android:id="@+id/item1" android:layout_width="wrap_content">-16776961</item>
+<item android:layout_height="wrap_content" android:id="@+id/item1" android:layout_width="wrap_content">-16711681</item>
+<item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">-7829368</item>
+<item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">-16711936</item>
+<item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">-65281</item>
+<item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">-65536</item>
+<item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">-1</item>
+<item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">-256</item>
+    </string-array>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="pref_bounce_custom_color_value">bounce_custom_color_value</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="background_bounce_color_title">Background Color</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="pref_bounce_background_color_key">bounce_background_color</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="preference_tilt_catagory">Tilt Mode Options</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="tilt_enforce_friction_title">Enforce Friction</string>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="pref_tilt_friction_key">enforce_friction</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="tilt_friction_strength_title">Friction Strength (1-10)</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="pref_tilt_friction_strength_key">friction_strength</string>
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="about_menu_title">About</string>
+    <color android:id="@+id/color1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="background_black">#000000</color>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="tilt_ball_size_title">Ball Size (5-50)</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="pref_tilt_ball_size_key">tilt_ball_size</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="pref_tilt_ball_color_key">tilt_ball_color</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="pref_tilt_background_color_key">tilt_background_color</string>
+
+</resources>

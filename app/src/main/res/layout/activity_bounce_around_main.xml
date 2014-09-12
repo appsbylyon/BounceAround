@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+    
+
+   <com.appsbylyon.bouncearound.Views.GameBoard
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+			android:id="@+id/the_canvas"/>
+   
+   <LinearLayout 
+        android:id="@+id/game_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/game_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Game Button"/>
+        
+        <TextView
+            android:id="@+id/game_info"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Game Info"/>
+    </LinearLayout>"
+
+</LinearLayout>
